@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*
+		{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.main
+		{
+			height: 350px;
+			/*background: red;*/
+			display: flex;
+			margin: 200px auto;
+		}
+		.main .img1
+		{
+			height: 350px;
+		  width: 600px;
+		  background: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom2.jpg);
+		  background-repeat: no-repeat;
+		  background-size: 700px 100%;
+		  margin-left: 100px;
+		  background-position: -90px 0 ;
+		  transition: 0.4s;
+		  position: relative;
+		}
+		.main .img2
+		{
+			height: 350px;
+		  width: 600px;
+		  background: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom1.jpg);
+		  background-repeat: no-repeat;
+		  background-size: 700px 100%;
+		  margin-left: 100px;
+		  background-position: -90px 0 ;
+		  transition: 0.4s;
+		  position: relative;
+		}
+		.main .img1::before
+		{
+			content: "N e w A r r i v a l";
+             height: 280px;
+             width: 460px;
+             border:5px solid white;
+             position: absolute;
+             top: 30px;
+             left: 50px;
+             text-align: right;
+             line-height: 320px;
+             font-size: 25px;
+        	font-family: sans-serif;
+        	color: white;
+        	padding-right: 30px;
+        	display: none;
+		}
+		.img1:hover:before
+			{
+			 
+			 display: block;
+			 
+			
+			}
+			.img1:hover
+			{
+                 background-position: 0px 0;
+			}
+
+
+			/*img2*/
+
+			.main .img2::before
+		{
+			content: "N e w A r r i v a l";
+             height: 280px;
+             width: 460px;
+             border:5px solid white;
+             position: absolute;
+             top: 30px;
+             left: 50px;
+             text-align: right;
+             line-height: 320px;
+             font-size: 25px;
+        	font-family: sans-serif;
+        	color: white;
+        	padding-right: 30px;
+        	display: none;
+		}
+		.img2:hover:before
+			{
+			 
+			 display: block;
+			 
+			
+			}
+			.img2:hover
+			{
+                 background-position: 0px 0;
+			}
+
+
+		.Fall
+		{
+
+         
+      
+          font-size: 30px;
+          position: absolute;
+          top: 90px;
+          left: 300px;
+          font-family: cursive;
+          color: white;
+
+         
+          
+		}
+		.h
+		{
+			font-weight: bold;
+			color: red;
+			font-family: sans-serif;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="main">
+		<div class="img1"><h3 class="Fall"><span class="h">F</span>ALL AHEAD</h3></div>
+		<div class="img2"><h3 class="Fall"><span class="h">F</span>ALL AHEAD</h3></div>
+	</div>
+
+</body>
+</html>
