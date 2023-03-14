@@ -1,0 +1,65 @@
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+  }
+  @media screen and (min-width: 992px) {
+    .navbar .navbar-nav .nav-link {
+      padding: 0 0.5em;
+    }
+    .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+      border-right: 3px solid #fff;
+    }
+  }
+  .company
+  {
+    height: 150px;
+    background-color:#FFA500
+  }
+  .subscribe
+  {
+    transition: 0.5s;
+    background-color: red;
+  }
+  .subscribe:hover
+  {
+    background-color: transparent;
+  }
+  .exp1
+  {
+    height: 50px;
+    background-color: lightgray;
+  }
+  .carousel {
+    margin-top: 50px;
+  }
+  .carousel-inner {
+    height: 100px;
+  }
+  .carousel-caption {
+    color: black;
+    top: 50%;
+  }
+  .images
+  {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .images .img1
+  {
+    width: 20%;
+    margin-right: 60px;
+    
+  }
+  .images .img2
+  {
+    width: 20%;
+    margin-right: 60px;
+  }
+  .images .img3
+  {
+    width: 20%;
+    margin-right: 60px;
+  }
