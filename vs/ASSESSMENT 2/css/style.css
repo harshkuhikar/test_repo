@@ -63,3 +63,17 @@
     width: 20%;
     margin-right: 60px;
   }
+  body {
+    background-color: #000;
+  }
+  .carousel {
+    margin-top: 50px;
+  }
+  .carousel-inner {
+    height: 100px;
+  }
+  .carousel-caption {
+    color: #fff;
+    top: 50%;
+  }
+  
