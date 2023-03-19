@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
         let age = 18
@@ -18,41 +20,91 @@
         // }
 
         // else...if
-        if(age > 10)
-        {
+        if (age > 10) {
             console.log("you are eligible for voting");
         }
-        else if(age < 18)
-        {
+        else if (age < 18) {
             console.log("you are not eligible for voting");
         }
-        else if (age == 18)
-        {
+        else if (age == 18) {
             console.log("wait for 1 year");
 
         }
-        else{
+        else {
             console.log("no match found");
         }
 
         // nested if
         a = 10
         b = 0
-        if(a > b)
-        {
-            if(a!=0 && b!=0)
-            {
-            console.log("a is grater than b ");
+        if (a > b) {
+            if (a != 0 && b != 0) {
+                console.log("a is grater than b ");
             }
-            else{
+            else {
                 console.log("any value is nagetive");
             }
         }
-        
-            else{
-                console.log("a is less than b");
-            }
-        
+
+        else {
+            console.log("a is less than b");
+        }
+
+        x = 2;
+        switch (x) {
+            case 1:
+                console.log("value 1");
+                break;
+            case 2:
+                console.log("value 2");
+                break;
+            case 3:
+                console.log("value 3");
+                break;
+            default:
+                console.log("no match found");
+        }
+
+        // loops
+
+        // for loop
+        for(let i = 0;i<=5;i++)
+        {
+            console.log(i+ "tops tech");
+        }
+
+        let arr = ["PHP","PYTHON","JAVA"]
+            console.log(arr);
+            console.log(arr[2]);
+        // for in
+        for(data in arr)
+        {
+            console.log(data+"==>"+arr[data]);
+        }
+
+        // for of 
+        for(mydata of arr)
+        {
+            console.log(mydata);
+        }
+        // forEach
+        arr.forEach(ele => {
+            console.log(ele);
+        })
+
+        let ob = {name:"harsh",age:"21",profession:"IT"}
+        // console.log(ob);
+        console.log(ob.profession);
+        console.log(ob.age);
+
+
+        // forin
+        for(obdata in ob)
+        {
+            console.log(obdata+"="+ob[obdata]);
+        }
+            
     </script>
 </body>
+
 </html>

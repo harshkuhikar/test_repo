@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <table border="1" align="center">
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" id="name" onblur="valid(this,'nameerror')" onkeydown="Alpha(this,'nerror')">
+                <span id="nameerror"></span>
+                <span id="nerror"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="text" id="email" onblur="valid(this,'eError')" onkeydown="EmailValid(this,'emError')">
+                <span id="eError"></span>
+                <span id="emError"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="" id="pwd" onblur="valid(this,'pError')" onkeydown="pwdValid(this,'pwError')">
+                <span id="pError"></span>
+                <span id="pwError"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>Mobile:</td>
+            <td><input type="text" id="mobile" onblur="valid(this,'mError')">
+                <span id="mError"></span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="submit" name="submit"></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
+<script>
+    function valid(inpt,spnid) {
+        if (inpt.value == "") {
+            document.getElementById(spnid).style.color = "red"
+            document.getElementById(spnid).innerHTML = "Please enter the data";
+        }
+        else {
+            document.getElementById(spnid).innerHTML = "";
+        }
+    }
+    function Alpha(e, spnid) {
+        var name = /^[a-zA-Z]+$/
+        if (name.test(e.value)) {
+            document.getElementById(spnid).innerHTML = "";
+        }
+        else {
+            document.getElementById(spnid).style.color = "red"
+            document.getElementById(spnid).innerHTML = "Please enter only characters";
+        }
+    }
+    function EmailValid(e, spnid) {
+        var email = /^([a-zA-Z0-9.-_])+@([a-zA-Z0-9.-_])+.([a-z]{2,3})$/
+        if (email.test(e.value)) {
+            document.getElementById(spnid).innerHTML = "";
+        }
+        else {
+            document.getElementById(spnid).style.color = "red"
+            document.getElementById(spnid).innerHTML = "Please enter valid email";
+        }
+    }
+
+    function pwdValid(e, spnid) {
+        var pwd = /^[a-zA-Z0-9]{2,5}$/
+        if (pwd.test(e.value)) {
+            document.getElementById(spnid).innerHTML = "";
+        }
+        else {
+            document.getElementById(spnid).style.color = "red"
+            document.getElementById(spnid).innerHTML = "Please enter valid Password";
+        }
+    }
+
+</script>

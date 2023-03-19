@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" onsubmit="return ValidData()">
+        <table border="1" align="center">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" id="email"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="" id="pwd"></td>
+            </tr>
+            <tr>
+                <td>Mobile:</td>
+                <td><input type="text" id="mobile"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" name="submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+<script>
+    function ValidData()
+    {
+        var name = document.getElementById('name');
+
+        if(name.value == "")
+        {
+            alert("please enter name");
+            document.getElementById('name').focus();
+            return false;
+        }
+
+        var email = document.getElementById('email');
+
+        if(email.value == "")
+        {
+            alert("please enter email");
+            document.getElementById('email').focus();
+            return false;
+        }
+        var pwd = document.getElementById('pwd');
+
+        if(pwd.value == "")
+        {
+            alert("please enter password");
+            document.getElementById('pwd').focus();
+            return false;
+        }
+        var mobile = document.getElementById('mobile');
+
+        if(mobile.value == "")
+        {
+            alert("please enter mobile");
+            document.getElementById('mobile').focus();
+            return false;
+        }
+    }
+</script>

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
@@ -174,54 +174,158 @@
 
     <!-- TEXT SLIDER START -->
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <h1 class="text-center">What Our Costomers say</h1>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
+        <div class="carousel-indicators m-auto">
+
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="carousel-caption">
-                    <h3>harsh</h3>
-                    <p>TEXT</p>
+            <div class="carousel-item active" data-bs-interval="10000">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Lorem, ipsum.</h5>
+                    <p>" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, eius! Saepe assumenda eos
+                        voluptatibus voluptates eaque quae dicta dolorem quaerat. "</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Lorem, ipsum.</h5>
+                    <p>" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, eius! Saepe assumenda eos
+                        voluptatibus voluptates eaque quae dicta dolorem quaerat. "</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-caption">
-                    <h3>kuhikar L</h3>
-                    <p>TEXT</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="carousel-caption">
-                    <h3>Randall L</h3>
-                    <p>TEXT</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="carousel-caption">
-                    <h3>John D.</h3>
-                    <p>TEXT</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="carousel-caption">
-                    <h3>Jody B.</h3>
-                    <p>TEXT</p>
+                <div class="carousel-caption d-none d-md-block ">
+                    <h5>Lorem, ipsum.</h5>
+                    <p>" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, eius! Saepe assumenda eos
+                        voluptatibus voluptates eaque quae dicta dolorem quaerat. "</p>
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
-
-
-
-
     <!-- TEXT SLIDER END -->
+
+
+
+    <!-- pricing START -->
+    <h1 class="text-center pt-5">PRICING</h1>
+    <p class="text-center">Choose the payment plan that works for you</p>
+
+    <div class="demo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="pricingTable">
+                        <div class="pricingTable-header">
+                            <h3 class="title">Basic</h3>
+                        </div>
+
+                        <ul class="pricing-content">
+                            <li>2 lorem</li>
+                            <li>40 lorem</li>
+                            <li>6 lorem</li>
+                            <li class="disable">2 lorem</li>
+                            <li class="disable">7 lorem</li>
+                        </ul>
+                        <div class="price-value">
+                            <span class="amount">$9.99</span>
+                            <span class="duration">per month</span>
+                        </div>
+                        <div class="pricingTable-signup">
+                            <a href="#">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="pricingTable">
+                        <div class="pricingTable-header">
+                            <h3 class="title">Pro</h3>
+                        </div>
+                        <ul class="pricing-content">
+                            <li>20 lorem</li>
+                            <li>1 lorem</li>
+                            <li>12 lorem</li>
+                            <li class="disable">4 lorem</li>
+                            <li class="disable">0 lorem</li>
+                        </ul>
+                        <div class="price-value">
+                            <span class="amount">$9.99</span>
+                            <span class="duration">per month</span>
+                        </div>
+                        <div class="pricingTable-signup">
+                            <a href="#">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="pricingTable red">
+                        <div class="pricingTable-header">
+                            <h3 class="title">Premium</h3>
+                        </div>
+
+                        <ul class="pricing-content">
+                            <li>20 lorem</li>
+                            <li>9 lorem</li>
+                            <li>40 lorem</li>
+                            <li>3 lorem</li>
+                            <li class="disable">5lorem</li>
+                        </ul>
+                        <div class="price-value">
+                            <span class="amount">$19.99</span>
+                            <span class="duration">per month</span>
+                        </div>
+                        <div class="pricingTable-signup">
+                            <a href="#">Sign Up</a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- pricing END -->
+
+    <!-- CONTACT START -->
+
+    <div>
+        <h1 class="text-center">CONTACT</h1>
+        <div class="last d-flex ">
+            <div class="w-50 contact ps-5">
+                <p class="pt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, sequi?</p>
+                <i class="fa-solid fa-location-dot"></i><span class="ps-3">India</span><br>
+                <i class="fa-solid fa-mobile"></i><span class="ps-3">111 1111 1111 111</span><br>
+                <i class="fa-solid fa-envelope"></i><span class="ps-3">xyz12@gmsil.com</span>
+            </div>
+            <div class="w-50">
+                <input class="inpt m-2" type="text" name="name" id="" placeholder="Name">
+                <input class="inpt" type="text" name="name" id="" placeholder="E-mail">
+                <textarea class="m-2" rows="5" cols="94" placeholder="comment"></textarea>
+                <button class="float-end me-4">Done</button>
+            </div>
+        </div>
+
+    </div>
+    <img class="w-100" src="images/Screenshot 2023-03-19 142201.png" alt="">
+
+    <!-- CONTACT END -->
 
 
     </body>
