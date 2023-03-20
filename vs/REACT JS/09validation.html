@@ -10,7 +10,7 @@
 
 <body>
 
-    <table border="1" align="center">
+    <table border="1" align="center" >
         <tr>
             <td>Name:</td>
             <td><input type="text" id="name" onblur="valid(this,'nameerror')" onkeydown="Alpha(this,'nerror')">
@@ -27,15 +27,17 @@
         </tr>
         <tr>
             <td>Password:</td>
-            <td><input type="password" name="" id="pwd" onblur="valid(this,'pError')" onkeydown="pwdValid(this,'pwError')">
+            <td><input type="password" name="" id="pwd" onblur="valid(this,'pError')"
+                    onkeydown="pwdValid(this,'pwError')">
                 <span id="pError"></span>
                 <span id="pwError"></span>
             </td>
         </tr>
         <tr>
             <td>Mobile:</td>
-            <td><input type="text" id="mobile" onblur="valid(this,'mError')">
+            <td><input type="text" id="mobile" onblur="valid(this,'mError')" onkeydown="mobilevalid(this, 'mobileError')">
                 <span id="mError"></span>
+                <span id="mobileError"></span>
             </td>
         </tr>
         <tr>
@@ -47,7 +49,7 @@
 
 </html>
 <script>
-    function valid(inpt,spnid) {
+    function valid(inpt, spnid) {
         if (inpt.value == "") {
             document.getElementById(spnid).style.color = "red"
             document.getElementById(spnid).innerHTML = "Please enter the data";
@@ -85,6 +87,16 @@
         else {
             document.getElementById(spnid).style.color = "red"
             document.getElementById(spnid).innerHTML = "Please enter valid Password";
+        }
+    }
+    function mobilevalid(e, spnid) {
+        var mobile = /^[0-9]{10}$/
+        if (mobile.test(e.value)) {
+            document.getElementById(spnid).innerHTML = "";
+        }
+        else {
+            document.getElementById(spnid).style.color = "red"
+            document.getElementById(spnid).innerHTML = "Please enter valid mobile number";
         }
     }
 
