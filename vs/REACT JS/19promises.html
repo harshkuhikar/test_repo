@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<script>
+
+    var Pro = new Promise((resolve, reject) => {
+        var a = 10;
+        var b = 15;
+        if (a == b) 
+        {
+
+            resolve("success");
+        }
+        else{
+            reject("Not Success")
+        }
+    }).then((Response)=>{
+        console.log(Response);
+    })
+    .catch((ErrorHndl)=>{
+        console.log(ErrorHndl);
+    })
+
+
+
+
+    // let mypro = new Promise((resolve, reject) => {
+    //     if (a == b)
+    //         resolve("Right!")
+    //         else{
+    //             reject("Wrong!");
+    //         }
+    // }).then((Response)=>{
+    //     console.log(Response);
+    // }).catch((ErrorHandl)=>{
+    //     console.log(ErrorHandl);
+    // })
+
+
+</script>
