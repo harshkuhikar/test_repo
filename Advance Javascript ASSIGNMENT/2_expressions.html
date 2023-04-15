@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Comparison</h2>
+    <p id="demo"> </p>
+    <script>
+        document.getElementById("demo").innerHTML = 5>4;
+    </script>
+
+    <p id="demo1"></p>
+    <script>
+        document.getElementById("demo1").innerHTML ="apple">"pineapple"
+    </script>
+
+    <p id="demo2"></p>
+    <script>
+        document.getElementById("demo2").innerHTML = "2">"12"
+    </script>
+
+    <p id="demo3"></p>
+    <script>
+        document.getElementById("demo3").innerHTML = undefined == null
+    </script>
+
+    <p id="demo4"></p>
+    <script>
+        document.getElementById("demo4").innerHTML = null == "\n0\n"
+    </script>
+
+    <p id="demo5"></p>
+    <script>
+        document.getElementById("demo5").innerHTML = null === +"\n0\n"
+    </script>
+</body>
+</html>
