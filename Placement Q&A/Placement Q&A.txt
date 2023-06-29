@@ -1,0 +1,217 @@
+01  -What is the difference between a Web Browser and a Web Server?
+ANS-A web browser is basically the software that we use for browsing on the internet and displaying pages. and, a web server refers to the software that provides its users with the documents they request via their web browsers.
+
+02-Full form of HTTP.
+ANS- full form of HTTP is Hyper Text Transfer Protocol
+
+03-Full form of FTP
+ANS- full form of FTP is File Transfer Protocol
+
+04-What is a domain?
+ANS-domain is the location of a website.
+
+05-What is the full form Of URL?
+ANS-full form of URL is Uniform Resource locator
+
+06-What is a web design and basic requirement?
+ANS-A web designer builds all the elements of a website. They choose and create the visual aspects of a website, such as graphics, font, colors and layout. They're responsible for making websites aesthetically appealing, functional and user-friendly.
+
+07-Which resolution is better for the perfect design?
+ANS-1920 x 1080 may be the best resolution for web design
+
+08- Explain problem specification with browser compatibility.
+ANS-
+
+09-Is HTML case sensitive?
+ANS- Tag names for HTML elements must exactly match the names of the elements given in the HTML elements section of this document; that is, tag names are case-sensitive
+
+10-Explain what is the use of editors and their types?
+ANS-Editors are basically computer programs that are utilised to edit files on a computer. The provide environment to a programmer to create, edit, update, format a document in any order he/she wants to. In system programming or programming, editors are software or tools that are used to edit the program
+
+
+Q11) What is the difference between HTML and XHTML?
+A) HTML stand for Hypertext markup language is used for creating web pages and web applications.
+Whereas XHTML stands for extensible hypertext markup language 
+It is almost the same as HTML but It is more important to create your code correctly, because XHTML is stricter than HTML in syntax and case sensitivity.
+
+Q12) How many HTML versions are available in the market?
+A) HTML5 is the latest version of HTML. Others Versions available are HTML 1.0, HTML 2.0, HTML 3.2 & HTML 4.01.
+
+Q13) What is DOCTYPE?
+A) The HTML document type declaration, also known as DOCTYPE, is the first line of code required in every HTML or XHTML document. The DOCTYPE declaration is an instruction to the web browser about what version of HTML the page is written in.
+
+Q14) Explain HTML structure?
+A) An HTML Document is mainly divided into two parts: 
+HEAD: This contains the information about the HTML document. For Example, the Title of the page, version of HTML, Meta Data, etc.
+BODY: This contains everything you want to display on the Web Page.
+Structure of HTML:
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Structure of HTML</title>
+  </head>
+ 
+  <body>
+  
+  </body>
+ 
+</html>
+
+Q15) What is HTML? How are HTML tags formed? Explain HTML
+comments?
+A) HTML stand for Hypertext markup language is used for creating web pages and web applications. 
+<form> tag is used to create a form. There are two attributes of the form tag that we should be familiar with:
+•	The action attribute points to the back-end of our web page, which handles the form submission
+•	The method attribute is used to upload the data. The most commonly used attributes are the GET and POST methods.
+The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers.You can use comments to explain your code.
+
+Q16) What is the use of Anchor tag? Explain two ways to specify URL in href attribute? 
+A) The <a> tag defines a hyperlink, which is used to link from one page to another. The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+Two ways to specify URL in href attribute:
+•	Absolute URL: points to another web site (like href="http://www.example.com/default.html") 
+•	Relative URL: points to a file within a web site (like href="default.html")
+
+
+Q17) How to create hyperlink in HTML ?
+A) <a> tag defines a hyperlink in HTML. It has the following syntax
+<a href="url">link text</a>
+Where under attribute href you can add whatever link or URL you want.
+
+Q18) Relative paths make your hypertext links ____________.
+A) Relative paths make your hypertext links Portable.
+
+Q19) In the following example, which type of HTML link is defined? 
+A) Incomplete question as example not given.
+
+Q20) Why are images used on web pages? 
+A) To engage visitors, to help users understand content better therefore informing them and answering their questions. All of these things result in a better user experience which is a significant ranking factor for Google.
+
+
+
+21 : What is the default value of the "target" attribute?
+Ans : _self
+The target attribute inside anchor tags ( <a> ) tells the browser where the linked document should be loaded. It's optional, and defaults to _self when no value is provided.
+
+
+22 : Types of List in HTML. (ans. Ordered, Unordered and Definition
+list)
+Ans : 
+1 : Ordered lists, which have an inherent order and each item is numbered.
+2 : Unordered lists, which have no inherent order and each item is bulleted.
+3 :Description lists, which contain a list of terms and descriptions for each term.
+
+
+23 : Which html tags are used to create table structure? Explain in
+brief at least five
+ Ans : <table>  <th>  <tr>  <td> <caption> <colgroup> <col> <thead> <tbody>  <tfoot>
+
+ 
+24 : What is a caption?
+ Ans : The <caption> tag defines a table caption. The <caption> tag must be inserted immediately after the <table> tag. Tip: By default, a table caption will be center-aligned above a table. However, the CSS properties text-align and caption-side can be used to align and place the caption.
+
+
+25 : Which attribute allows you to add descriptive text to a table?
+Ans : Each table may have an associated caption (see the CAPTION element) that provides a short description of the table's purpose. A longer description may also be provided (via the summary attribute) for the benefit of people using speech or Braille-based user agents.
+
+
+26 : Which HTML attribute is used to set the space between cells in
+an HTML element?
+Ans : cellspacing Attribute
+HTML | <table> cellspacing Attribute. The HTML <table> cellspacing Attribute is used to specify the space between the cells. The cellspacing attribute is set in terms of pixels.
+
+
+27 : Which attribute do you use to span table cells across table
+columns?
+Ans : The colspan attribute defines the number of columns a table cell should span.
+
+
+28 : Which has higher priority in Table -- cell settings or table settings ? (and. Call settings)
+Ans : In this way we can say that higher priority is of setting a cell than a table because setting up multiple cells can also form a table which is enough to determine the required parameters in the sheet.
+
+
+29 : HTML attribute values are usually enclosed in?
+Ans : Double quotes
+Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
+
+
+30 : HTML Entities. To display a less than sign we must write:
+Ans : To display a less than sign (<) we must write: &lt; or &#60; Advantage of using an entity name: An entity name is easy to remember.
+
+
+31. For a radio button to be marked as on what is the recommended attribute and value?
+=>  The value attribute defines the unique value associated with each radio button.
+
+32. HTML 5 What is a new attribute for both and <input>?
+=> 1.value        6.min and max  11.step
+   2.readonly     7.multiple     12.autofocus
+   3.disabled     8.pattern      13.height and width
+   4.size         9.placeholder  14.list
+   5.maxlength   10.required     15.autocomplete
+
+33. HTML What is the internal/wire format of input type="date" in HTML5? 
+ =>  1.YYYY-MM-DD,
+     2.ddmmyyyy, 
+     3.dd/mm/yyyy, 
+     4.mm/dd/yyyy,
+     5.dd-mm-yyyy,
+     6.mm-dd-yyyy,
+     7.Month dd, yyyy
+
+34. What are the Input types in HTML ?
+=> 1.<input type="button">
+   2.<input type="checkbox">
+   3.<input type="color">
+   4.<input type="date">
+   5.<input type="datetime-local">
+   6.<input type="email">
+   7.<input type="file">
+   8.<input type="hidden">
+   9.<input type="image">
+  10.<input type="month">
+  11.<input type="number">
+  12.<input type="password">
+  13.<input type="radio">
+  14.<input type="range">
+  15.<input type="reset">
+  16.<input type="search">
+  17.<input type="submit">
+  18.<input type="tel">
+  19.<input type="text">
+  20.<input type="time">
+  21.<input type="url">
+  22.<input type="week">
+
+35. What are new Input types included in HTML5 ?
+=>HTML 5 introduces several input types like Date, DateTime, DateTime-local, time, week, month, email, tel, URL, search, range, color, and number to improve the user experience and to make the forms more interactive.	
+
+36. What is the use of <fieldset> ?
+=>The <fieldset> tag is used to group related elements in a form. The <fieldset> tag draws a box around the related elements.
+
+37. what is the use of <nav> tag ?
+=>HTML <nav> tag is used to represent a section which contains navigation links, either within current document or to another document. 
+  Examples of some navigation links are menu, table of contents, indexes, etc.
+
+38. Difference between <span> and <div>tag ?
+=> <div> is a block-level element and <span> is an inline element. 
+
+39. How to embed Javascript in HTML ?
+=>JavaScript code can be embedded inline into an HTML document by using the dedicated HTML tag <script>. 
+
+40. How do we specify line breaks in HTML ?
+=>The <br> tag inserts a single line break. The <br> tag is useful for writing addresses or poems.  
+
+41. Explain HTML 5 Element ?
+=> 1.<header>    6.<main>
+   2.<nav>       7.<footer>
+   3.<section>   8.<video> and <audio>
+   4.<article>   9.<canvas>
+   5.<aside>    
+
+42. Which tag is used in HTML5 to display video ?
+=>The <video> tag is used to embed video content in a document, such as a movie clip or other video streams. 
+  The <video> tag contains one or more <source> tags with different video sources.
+
+43. HTML Event Attributes onunload fires
+=> The onunload attribute fires once a page has unloaded (or the browser window has been closed).
+=> onunload occurs when the user navigates away from the page (by clicking on a link, submitting a form, closing the browser window, etc.)
+

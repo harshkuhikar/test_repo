@@ -1,0 +1,81 @@
+{
+  "details": [
+    {
+      "name": "haello",
+      "email": "harshkuhikar1@gmail.com",
+      "phone": "8511830227",
+      "country": "Canada",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Dhruv",
+      "email": "dhruvvarmora2@gmail.com",
+      "phone": "888888888",
+      "country": "USA"
+    },
+    {
+      "id": 3,
+      "name": "Dhruvin",
+      "email": "dhruvin3@gmail.com",
+      "phone": "888888888",
+      "country": "UK"
+    },
+    {
+      "id": 4,
+      "name": "Vikram",
+      "email": "Vikram4@gmail.com",
+      "phone": "8511830227",
+      "country": "dubai"
+    },
+    {
+      "id": 5,
+      "name": "mahavir",
+      "email": "mahavir5@gmail.com",
+      "phone": "8511830227",
+      "country": "australia"
+    },
+    {
+      "name": "Harsh",
+      "email": "Harsh@gmail.com",
+      "phone": "123456789",
+      "country": "India",
+      "id": 6
+    },
+    {
+      "name": "Harsh",
+      "email": "Harsh@gmail.com",
+      "phone": "123456789",
+      "country": "India",
+      "id": 7
+    },
+    {
+      "name": "Harsh",
+      "email": "Harsh@gmail.com",
+      "phone": "123456789",
+      "country": "India",
+      "id": 8
+    },
+    {
+      "name": "Harsh",
+      "email": "Harsh@gmail.com",
+      "phone": "123456789",
+      "country": "India",
+      "id": 9
+    },
+    {
+      "name": "Harsh",
+      "email": "Harsh@gmail.com",
+      "phone": "123456789",
+      "country": "India",
+      "id": 10
+    },
+    {
+      "name": "Harsh...",
+      "email": "Harsh@gmail.com",
+      "phone": "123456789",
+      "country": "pak",
+      "id": 11
+    }
+  ]
+}

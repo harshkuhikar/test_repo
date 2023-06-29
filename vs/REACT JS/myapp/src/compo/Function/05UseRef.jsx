@@ -8,7 +8,7 @@ function UseRef(props) {
         myref.current.focus();
         if(myref.current.value == "")
         {
-            alert("Congratulations alert mali gayel chhe have focus kar focus") bj
+            alert("Congratulations alert mali gayel chhe have focus kar focus") 
         }
     }
     return (

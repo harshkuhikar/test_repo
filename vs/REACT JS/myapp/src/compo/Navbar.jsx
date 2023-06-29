@@ -14,11 +14,13 @@ import API from './06API';
 import FetchAPI from './Function/03FetchAPI';
 import loader from './Function/04loader';
 import UseRef from './Function/05UseRef';
+import UseContext from './Function/06UseContext';
 
 function navbar(props) {
     const data = {
         '/home': 'Home', '/about': 'About', '/state': 'state', '/lifecycle': 'Lifecycle',
-        '/loops': 'Loops', '/API': 'API','/fetchapi':'FetchApi','/loader':'Loader','/useref':'UseRef'
+        '/loops': 'Loops', '/API': 'API','/fetchapi':'FetchApi','/loader':'Loader','/useref':'UseRef',
+        '/usecontext':'UseContext'
     }
     const returndata = Object.entries(data).map((res) => {
         console.log(res);
@@ -52,6 +54,7 @@ function navbar(props) {
                     <Route path='03FetchAPI' element={FetchAPI}></Route>
                     <Route path='04loader'></Route>
                     <Route path='UseRef' element={<UseRef/>}/>
+                    <Route path='UseContext' element={<UseContext/>}/>
 
                 </Routes>
             </Router>
