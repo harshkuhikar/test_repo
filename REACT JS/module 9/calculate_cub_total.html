@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prize Sub Total</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        img{
+            width: 100%;
+            height: 250px;
+        }
+        table{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            
+        }
+       
+    </style>
+</head>
+<body>
+
+    <table class="table table-bordered">
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price (per unit)</th>
+            <th>Price (subtotal) </th>
+
+
+        </tr>
+        <tr>
+            <td>
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR-BmmPmhOHE3HtrSsJLkTDi5Aw3ZIvXCnXjgBA1KsbQirUfMP3WmCQWRfcKvjgCFVHym9Fuux4cb-FtVrUYHZsNl1pL9epctJKERGT8ZQzAqQKi85TMkgF&usqp=CAE" alt="">
+                    <h3>Red Tap shoes</h3>
+            </td>
+            <td>
+              <input class="quantity" type="text">
+            </td>
+            <td><h2>1300</h2></td>
+            <td><h2 class="total">0</h2></td>
+            <td>
+                <button class="button">Remove</button>
+            </td>
+
+    </table>
+ 
+    <script>
+      let q=document.querySelector(".quantity");
+      let total=document.querySelector(".total");
+      let btn=document.querySelector(".button")
+        q.addEventListener("keyup",function(){
+        console.log("jhg");
+           let price= q.value*1300;
+           total.innerHTML = price; 
+      })
+      btn.addEventListener("click",function(){
+           q.value = 0;
+           total.innerHTML=0;
+      })
+      
+
+     
+
+    </script>
+</body>
+</html>
