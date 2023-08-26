@@ -141,14 +141,26 @@
 }
 .content1 .details .rent{
 	margin-top:50px;
+	color: black;
 	border: 2px solid #2eca6a;
 	font-family: sans-serif;
 	font-size: 20px;
+	background-color: black;
 	width: 200px;
 	text-align: center;
 	padding: 20px;
+	transition: ease-in-out 0.2s;
 	border-radius: 100px;
 
+}
+.content1 .details .rent:hover {
+	background-color: aqua;
+	color: black;
+	border: 2px solid gold;
+}
+.content1 .details .rent:hover a{
+	color: black;
+	
 }
 .content1 .details .rent a{
 	text-decoration: none;
@@ -417,9 +429,9 @@
 .content4 .content4-1 .c1:hover .c1-2{
     opacity: 1;
 }
-.content4 .content4-1 .c1:hover .c1-2{
+/* .content4 .content4-1 .c1:hover .c1-2{
    
-}
+} */
 .content4 .content4-1 .c1 .c1-2  .line{
 	text-decoration: none;
 	color: black;

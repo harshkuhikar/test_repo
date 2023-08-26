@@ -787,6 +787,13 @@
 	margin-top: -250px;
 	font-weight: bold;
 	color: white;
+	transition: 0.3s ease-in-out;
+}
+
+.content6 button:hover{
+	background: black;
+	color: #32cfb0;
+	border: 2px solid goldenrod;
 }
 
 .heading3 {
