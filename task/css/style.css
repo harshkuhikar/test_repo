@@ -1,0 +1,102 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main	
+{
+	height: 100px;
+	background: rgba(14, 21, 202, 0.8);
+	display: flex;
+}
+.main .logo
+{
+	height: inherit;
+	width: 30%;
+}
+.main .nav 
+{
+	height: inherit;
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	/*background: red;*/
+}
+.main .nav a
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	margin-right: 30px;
+}
+/*.main .nav p
+{
+	display: inline;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	margin-left: 60px;
+}*/
+.main .nav 
+{
+	text-align: right;
+	/*line-height: 100px;*/
+}
+button
+{
+	padding: 10px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.main1
+{
+	width: 105px;
+	background: rgba(14, 21, 202, 0.8);
+	position: absolute;
+	top: 100%;
+	left: 0;
+	display: none;
+}
+.main1 div
+{
+	font-size: 20px;
+	color: #fff;
+	border-bottom: 2px solid white;
+	/*word-spacing: 2px;*/
+	/*letter-spacing: 2px;*/
+	padding: 5px;
+	/*display: none;*/
+}
+.main .nav span
+{
+	position: relative;
+	padding: 15px 0;
+	transition: all 4s ease-in-out;
+}
+.main2
+{
+	position: absolute;
+	background: rgba(14, 21, 202, 0.8);
+	top: 0;
+	left: 100%;
+	display: none;
+}
+.main .main1 .more:hover .main2
+{
+	display: block;
+}
+.more
+{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.main .nav span:hover .main1 
+{
+	display: block; 
+}
+
+

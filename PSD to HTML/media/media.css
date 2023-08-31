@@ -1,0 +1,183 @@
+@media(max-width:1050px)
+{
+    .navbar{height: 70px; width: 100%;}
+    .navbar .nav{ height: 70px; height: 600px;margin-left: 20px; }
+     
+    .background{height: 750px; width: 100%;}
+    .background .logo{margin: 30px 0 0 50px;}
+    .background .text{height: 500px; width:auto;  margin-left:10px ;}
+    .background .text h2{font-size: 90px;}
+     
+    .background1{height: 450px; width: 100%;}
+    .background1  .box{height: 350px; width: auto;  margin-left: 10px;}
+    .background1 .box h1{font-size:50px ;} 
+    .background1 .box p{font-size: 20px;}
+    .background1 .box .cc1 .ss1{margin: 50px 0 0 center;}
+
+    .background2{height:350px; width: auto; background-position: center;}
+
+    .background3{height:600px; width: 100%;}
+    .background3  .box1{ margin-left: 10px;}
+    .background3 .box1  .A img{height:400px; width: auto;}
+    .background3 .box1 .A .text{height: 450px; width: auto; }
+    .background3 .box1 .A .text h1{font-size:50px ;}
+    .background3 .box1 .A .text p{font-size:25px;} 
+
+    .background4{height:600px; width: 100%;}
+    .background4 .box2{height: 550px; width:100%; margin: 0 0 0 10px; background-image: url("C://Users/Asus/Desktop/pateldipu_github/html-assignments/PSD  to  HTML/img/Vector  (1).png"); background-position: center; }
+    .background4 .A{height: 400PX; width:auto;  margin-left: 20PX;}
+    .background4 .A h3{font-size: 100px;}
+    .background4 .A h2{font-size: 80px;}
+
+    .background5{height: 600px; width: 100%;}
+    .background5 .box3{ margin-left: -10px; gap: 10px;}
+    .background5 .box3 .B {height: 400px; width: auto;}
+    .background5 .box3 .B .text1{height: 400px; width: auto; }
+    .background5 .box3 .B .text1 h2{font-size: 50px;}
+    .background5 .box3 .B .text1 p{font-size: 25px;}
+    .background5 .box3 .B img{height:400px; width: auto;}
+
+    .background6{height: 900px;width: 100%;}
+    .background6 .rgba .text3{height:600px; width:auto;  margin-left: 10px;}
+    /* .background6 .logo1 img{margin-left: 50px;} */
+    .background6  .rgba .text3 h3{font-size: 30px;}
+    .background6 .rgba .text3 p{font-size: 30px;}
+
+    .background7{height: 600PX; width: 100%;}
+    .background7 .text4{height: 500px; width: auto;  margin-left: 10px;}
+    .background7 .text4 h1{font-size: 50px;}
+    .background7 .text4 p{font-size:25px;}
+    /* .background7 .text4 input{height: 50px; width: 270px; margin-left: 50px;} */
+    /* .background7 .text4 .cc4 .ss4{margin-left: 280px;}  */
+
+    
+    .footer { gap: 10px; height: auto;}
+
+
+
+}
+
+@media(max-width:750px)
+{
+    .navbar{height: 70px; width: 100%;}
+    .navbar .nav ul li{display: none;  }
+    .navbar .nav .fa-bars{display: block; color: rgb(1, 23, 42); font-size: 50px; }
+
+    .background{height: 750px; width: 100%;}
+    .background .logo{margin: 30px 0 0 50px;}
+    .background .text{height: 500px; width:auto;  margin-left:10px ;}
+    .background .text h2{font-size: 90px;}
+     
+    .background1{height: 450px; width: 100%;}
+    .background1  .box{height: 350px; width: auto;  margin-left: 10px;}
+    .background1 .box h1{font-size:50px ;} 
+    .background1 .box p{font-size: 20px;}
+    .background1 .box .cc1 .ss1{margin: 50px 0 0 50px;}
+
+    .background2{height:350px; width: auto; background-position: center;}
+     
+    .background3{height:990px; width: 100%;}
+    .background3  .box1{flex-wrap: wrap; margin-left: 10px;}
+    .background3 .box1  .A img{height:400px; width: auto;}
+    .background3 .box1 .A .text{height: 450px; width: auto;margin: -180px 0 0 0; }
+    .background3 .box1 .A .text h1{font-size:50px ;}
+    .background3 .box1 .A .text p{font-size:25px;} 
+
+    .background4{height:600px; width: 100%;}
+    .background4 .box2{height: 550px; width:100%; margin: 0 0 0 10px; background-image: url("C://Users/Asus/Desktop/pateldipu_github/html-assignments/PSD  to  HTML/img/Vector  (1).png"); background-position: center; }
+    .background4 .A{height: 400PX; width:auto;  margin-left: 20PX;}
+    .background4 .A h3{font-size: 100px;}
+    .background4 .A h2{font-size: 80px;}
+
+
+    .background5{height: 900px; width: 100%;}
+    .background5 .box3{flex-wrap: wrap;gap: 70px; margin-left: -10px;}
+    .background5 .box3 .B {height: 400px; width: auto;}
+    .background5 .box3 .B .text1{height: 400px; width: auto; }
+    .background5 .box3 .B .text1 h2{font-size: 50px;}
+    .background5 .box3 .B .text1 p{font-size: 25px;}
+    .background5 .box3 .B img{height:360px; width: auto;}
+
+
+    .background6{height: 900px;width: 100%;}
+    .background6 .rgba .text3{height:600px; width:auto;  margin-left: 10px;}
+    .background6 .logo1 img{margin-left: 50px;}
+    .background6  .rgba .text3 h3{font-size: 30px;}
+    .background6 .rgba .text3 p{font-size: 30px;}
+
+    .background7{height: 600PX; width: 100%;}
+    .background7 .text4{height: 500px; width: auto;  margin-left: 10px;}
+    .background7 .text4 h1{font-size: 50px;}
+    .background7 .text4 p{font-size:25px;}
+    .background7 .text4 input{height: 50px; width: 270px; margin-left: 50px;}
+    .background7 .text4 .cc4 .ss4{margin-left: 280px;} 
+
+    .footer {flex-wrap: wrap; gap: 10px; height: auto;}
+
+
+
+
+}
+
+@media(max-width:500px)
+{
+    .navbar{height: 70px; width: 100%;}
+    /* .navbar .nav{height: 70PX; width: AUTO;} */
+    .navbar .nav ul li{display: none;  }
+    .navbar .nav .fa-bars{display: block; color: rgb(1, 23, 42); font-size: 50px;}
+    
+
+    .background{height: 750px; width: 100%;}
+    .background .logo{margin: 30px 0 0 50px;}
+    .background .text{height: 500px; width: 350px;  margin-left:10px ;}
+    .background .text h2{font-size: 90px;}
+
+    .background1{height: 450px; width: 100%;}
+    .background1  .box{height: 350px; width: 350px;  margin-left: 10px;}
+    .background1 .box h1{font-size:50px ;} 
+    .background1 .box p{font-size: 20px;}
+    .background1 .box .cc1 .ss1{margin: 50px 0 0 50px;}
+    
+    .background2{height:350px; width: 100%; background-position: center;}
+    
+    .background3{height:990px; width: 100%;}
+    .background3  .box1{flex-wrap: wrap; margin-left: 10px;}
+    .background3 .box1  .A img{height:400px; width: 360px;}
+    .background3 .box1 .A .text{height: 450px; width: 350px;margin: -180px 0 0 0; }
+    .background3 .box1 .A .text h1{font-size:50px ;}
+    .background3 .box1 .A .text p{font-size:25px;} 
+
+
+
+    .background4{height:600px; width: 100%;}
+    .background4 .box2{height: 550px; width: 350px; margin: 0 0 0 10px; background-image: url("C://Users/Asus/Desktop/pateldipu_github/html-assignments/PSD  to  HTML/img/Vector  (1).png"); background-position: center; }
+    .background4 .A{height: 400PX; width: 350PX;    margin-left: 20PX;}
+    .background4 .A h3{font-size: 100px;}
+    .background4 .A h2{font-size: 80px;}
+
+
+    .background5{height: 900px; width: 100%;}
+    .background5 .box3{flex-wrap: wrap;gap: 70px; margin-left: -10px;}
+    .background5 .box3 .B {height: 400px; width: 350px;}
+    .background5 .box3 .B .text1{height: 400px; width: 350px; }
+    .background5 .box3 .B .text1 h2{font-size: 50px;}
+    .background5 .box3 .B .text1 p{font-size: 25px;}
+    .background5 .box3 .B img{height:360px; width: 350px;}
+
+    .background6{height: 900px;width: 100%;}
+    .background6 .rgba .text3{height:600px; width: 350px;  margin-left: 10px;}
+    .background6 .logo1 img{margin-left: 50px;}
+    .background6  .rgba .text3 h3{font-size: 30px;}
+    .background6 .rgba .text3 p{font-size: 30px;margin-left: 50px;}
+
+    .background7{height: 600PX; width: 100%;}
+    .background7 .text4{height: 500px; width: 360px;  margin-left: 10px;}
+    .background7 .text4 h1{font-size: 50px;}
+    .background7 .text4 p{font-size:25px;}
+    .background7 .text4 input{height: 50px; width: 180px; margin-left: 10px;}
+    .background7 .text4 .cc4 .ss4{margin-left: 150px;}
+
+    .footer {flex-wrap: wrap; gap: 10px; height: auto;}
+
+
+}

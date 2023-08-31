@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.wrapper .logo {
+    width: 20%;
+    text-align: center;
+}
+
+.nav-links-main {
+    width: 80%;
+}
+
+nav .wrapper {
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    margin-left: 20px;
+    font-size: 18px;
+    color: white;
+    transition: 0.3s ease-in-out;
+    padding: 15px 35px;
+    background-color: #025d89;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid #025d89;
+    cursor: pointer;
+}
+
+nav .wrapper .nav-links {
+    display: inline-flex;
+}
+
+nav .wrapper .nav-links li {
+    list-style: none;
+}
+
+nav .wrapper .nav-links li a {
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+}
+
+nav .wrapper .nav-links li a:hover {
+    color: #ff652f;
+    border-radius: 15px;
+}
+
+nav .wrapper .nav-links li a.active {
+    color: #ff652f;
+    border-radius: 15px;
+}
+
+nav .wrapper .nav-links li:hover .mega-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+nav .wrapper .mega-menu {
+    position: absolute;
+    top: 160px;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+}
+
+nav .wrapper .mega-menu .content {
+    background-color: transparent;
+    padding: 15px 30px;
+    box-shadow: 10px 0 5px black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav .wrapper .mega-menu .content .row {
+    line-height: 55px;
+}
+
+nav .wrapper .mega-menu .content .row .title {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.why {
+    background-color: #ff652f;
+    position: absolute;
+    top: 110px;
+    float: left;
+    font-size: 20px;
+    line-height: 50px;
+    width: auto;
+    color: white;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+}
+
+.why li {
+    transition: all 0.4s ease-in-out;
+}
+
+.why li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+nav .wrapper .nav-links li:hover .why {
+    opacity: 1;
+    visibility: visible;
+}

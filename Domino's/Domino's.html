@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domino's Pizza - Order online | Get 2 Regular Pizza @99 Each</title>
+    <link rel="shortcut icon" href="images/Domino's Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR START -->
+
+    <nav>
+        <div class="logo">
+            <img src="images/Logo2.png" alt="">
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="">OUR MENU</a></li>
+                <li><a href="">DOMINO'S STORES</a></li>
+                <li><a href="">GIFT CARD</a></li>
+                <li><a href="">CORPORATE ENQUIRY</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="download">
+            <button class="btn">Download App</button>
+        </div>
+    </nav>
+
+    <!-- NAVBAR START -->
+
+    <!-- Body First START -->
+
+    <div class="main">
+        <div class="order">
+            <div class="innerorder">
+                <h1 style="word-spacing: 10px;">Domino's online ordering</h1>
+                <h3 style="opacity: 0.7;">Domino's online ordering</h3>
+                <button class="online-btn">ORDER ONLINE NOW</button>
+                <div class="upto"><img src="images/banner_brand_20210922.jpg" height="100%" width="100%" alt=""></div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="images/header_bg.png" height="100%" width="100%" alt="">
+        </div>
+    </div>
+    <br>
+
+    <!-- Home START -->
+
+    <div class="mainhome">
+        <a class="home" href="">Home</a>
+    </div>
+
+    <!-- Image slider START -->
+    <br><br><br>
+
+    <h1 class="img-slider-h1">Coupons & Offers</h1>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="images/SLider 1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/SLider 2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/SLider 3.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/SLider 4.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/SLider 5.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/SLider 6.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+    <!-- Image slider END -->
+
+
+
+    <!-- Home END -->
+    <!-- Body First START -->
+</body>
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
+
+</html>

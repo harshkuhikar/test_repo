@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header {
+    position: relative;
+    position: relative;
+    align-items: center;
+}
+
+.container {
+    align-items: center;
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 20%;
+    text-align: center;
+    background-color: aqua;
+    margin: auto;
+}
+nav{
+    width: 80%;
+    background-color: chartreuse;
+}
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav>ul>li {
+    padding: 30px;
+    list-style: none;
+}
+
+.container ul li a {
+    transition: all 0.2s ease-in-out;
+}
+
+.container ul li a:hover {
+    color: blueviolet;
+}
+
+nav>ul>li>a {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.megamenu {
+    position: absolute;
+    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 10px;
+    left: 0;
+    display: flex;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+    border-bottom: 5px solid aquamarine;
+    box-shadow: 0 10px 50px 0px black;
+}
+
+.megamenuitems {
+    flex-basis: 100%;
+    margin: 1%;
+}
+
+nav>ul>li:hover .megamenu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.megamenuitems ul li {
+    list-style: none;
+    padding: 7px;
+    line-height: 40px;
+}
+
+.megamenuitems h3 {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+
+.btn {
+    padding: 17px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+    background-color: cadetblue;
+    border: 2px solid indigo;
+}
+
+.btn:hover {
+    background-color: aqua;
+    color: black;
+    border: 2px solid indigo;
+}
+.hamburger {
+    cursor: pointer;
+    font-size: 28px;
+    position: absolute;
+    left: 0;
+    /* opacity: 0;
+    visibility: hidden; */
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        background-color: aqua;
+        width: 300px;
+        height: 100%;
+        padding-top: 200px;
+    }
+
+    .logo {
+        margin: auto;
+        text-align: center;
+    }
+
+    .hamburger {
+        display: block;
+        background-color: black;
+
+    }
+}

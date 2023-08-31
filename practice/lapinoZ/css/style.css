@@ -1,0 +1,135 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+.header
+{
+	display: flex;
+	flex-wrap: wrap;
+/*	background: #000;*/
+	text-align: center;
+	padding: 20px 0;
+}
+
+.header .logo 
+{
+/*	height: 80px;*/
+/*	background: gray;*/
+	width:30%;
+}
+
+.header .nav 
+{
+/*	height: 80px;*/
+/*	background: green;*/
+	width:70%;
+}
+
+.header .nav li 
+{
+	display: inline;
+	margin-right: 20px;
+}
+
+.header .nav li a 
+{
+	font-size: 20px;
+	text-decoration: none;
+	color: green;
+}
+
+
+
+.slider
+{
+	height: 450px;
+	position: relative;
+
+}
+
+.slider img
+{
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+
+}
+
+.slider .info
+{
+	position: absolute;
+	top:30%;
+	left: 30%;
+	background: transparent;
+	padding: 15px;
+	text-align: center;
+}
+
+.slider .info * 
+{
+	margin: 15px 0;
+}
+
+.slider .info .selectInfo
+{
+	background: #fff;
+	padding: 0 40px;
+	border-radius: 50px;
+}
+.slider .info .selectInfo select
+{
+	background: transparent;
+	border: none;
+}
+
+.slider .info .selectInfo select:first-child
+{
+	margin-right: 70px;
+}
+.slider .info button
+{
+	background: #000;
+	color: #fff;
+	padding: 10px 14px;
+	border-radius: 30px;
+}
+
+.explore 
+{
+	height: auto;
+/*	background: gray;*/
+	padding: 35px;
+}
+
+
+
+.explore .products
+{
+	margin-top: 20px;
+/*	height: 200px;*/
+	width: 100%;
+/*	background: green;*/
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.explore .products .prd
+{
+	
+	height: 200px;
+	width: 200px;
+/*	border: 2px solid;*/
+	padding: 15px;
+	margin-left: 30px;
+}
+.slider .imgdiv
+{
+	height: 450px;
+	width: inherit;
+	background: rgb();
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -3;
+
+}

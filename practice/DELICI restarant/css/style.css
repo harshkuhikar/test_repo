@@ -1,0 +1,256 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.bgimg
+{
+	height: 900px;
+	background-image: url(https://img.freepik.com/free-photo/pasta-spaghetti-with-shrimps-sauce_1220-5072.jpg?w=1060&t=st=1671433239~exp=1671433839~hmac=49a5d5893114022b9046408068dda45b5ff0beaa908a3c1145c472fd3be6a46f);
+	background-size: 100% 100%;
+	position: relative;
+}
+.header
+{
+	width: 100%;
+	display: flex;
+	background: red;
+	/*background: transparent;*/
+	border-bottom: 2px solid white;
+}
+
+.location
+{
+	height: 50px;
+	width: 50%;   
+	line-height: 50px;
+	color: white;
+	font-weight: bold;
+
+}
+.mail
+{
+	width: 50%;
+	color: white;
+	line-height: 50px;
+	text-align: right;
+	font-weight: bold;
+}
+/*.bgimg::after
+{
+	content: "";
+	position: absolute;
+	top: 6%;
+	left: 0;
+	height: 94%;
+	width: 100%;
+	background: black;
+	opacity: 0.6;
+}*/
+
+
+.header2
+{
+	height: 100px;
+	background: transparent;
+	display: flex;
+	/*position: fixed;*/
+	/*top: 0;
+	left: 0;*/
+}
+.menu
+{
+	width: 33.33%;
+	background: transparent;
+}
+.logo
+{
+	width: 33.33%;
+	background: transparent;
+}
+.table
+{
+	width: 33.33%;
+	/*background: coral;*/
+}
+
+
+
+
+
+
+.header2  .hamburger 
+{
+	height: 51px;
+	width: 51px;
+	margin: auto;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.line 	
+{
+	height: 3px;
+	width: 35px;
+	background-color: #fff;
+	position: relative;
+	top: 11px;
+	margin: 5px auto 0 auto;
+}
+
+.bottom 
+{
+	transform: rotate(0deg) translateY(0px);
+	transition: 0.5s;
+}
+
+.header2  .hamburger:hover .bottom {
+	transform: translateY(-8px) rotate(-45deg);
+	transition: 0.5s;
+}
+
+.top {
+	transform: rotate(0deg) translateY(0px);
+	transition: 0.5s;
+}
+
+.header2  .hamburger:hover .top {
+	transform: translateY(8px) rotate(45deg);
+	transition: 0.5s;
+}
+
+.middle 
+{
+	opacity: 1;
+	transition: 0.6s;
+}
+
+.header2  .hamburger:hover .middle 
+{
+	opacity: 0;
+	transition: 0.6s;
+}
+
+.border 
+{
+	margin: auto;
+	background-color: #468;
+}
+
+.header2  .hamburger:hover .draw_top {
+	animation: rightIn 0.4s 0s infinite;
+}
+
+.draw_top.unactive {
+	animation: leftIn 0.4s 0.3s infinite;
+}
+
+.header2  .hamburger:hover .draw_left {
+	animation: topIn 0.4s 0.3s infinite;
+}
+
+.draw_left.unactive {
+	animation: bottomIn 0.4s 0s infinite;
+}
+
+.header2  .hamburger:hover .draw_bottom {
+	animation: leftIn 0.4s 0s infinite;
+}
+
+.draw_bottom.unactive {
+	animation: rightIn 0.4s 0.3s infinite;
+}
+
+.header2  .hamburger:hover .draw_right {
+	animation: bottomIn 0.4s 0.3s infinite;
+}
+
+.draw_right.unactive {
+	animation: topIn 0.4s 0s infinite;
+}
+
+
+.draw_top {
+	height: 2px;
+	width: 51px;
+	position: absolute;
+	top: 0;
+	left: 51px;
+	transition: 1s;
+}
+
+.draw_left 
+{
+	height: 50px;
+	width: 2px;
+	position: absolute;
+	top: -50px;
+	left: 0;
+	transition: 1s;
+}
+
+.draw_bottom 
+{
+	height: 2px;
+	width: 50px;
+	position: absolute;
+	top: 49px;
+	left: -50px;
+	transition: 1s;
+}
+
+.draw_right 
+{
+	height: 51px;
+	width: 2px;
+	position: absolute;
+	top: 51px;
+	left: 49px;
+	transition: 1s;
+}
+
+@keyframes rightIn {
+	0% {left: 50px;}
+	100% {left: 0px;}
+}
+
+@keyframes topIn {
+	0% {top: -50px;}
+	100% {top: 0px;}
+}
+
+@keyframes leftIn {
+	0% {left: -50px;}
+	100% {left: 0px;}
+}
+
+@keyframes bottomIn {
+	0% {top: 50px;}
+	100% {top: 0px;}
+}
+.header2 .logo img
+{
+	margin: 6% 40%;
+}
+.header2 .table button
+{
+	height: 60px;
+	width: 250px;
+	color: white;
+	background: rgba(228,197,144,1);
+	margin: 20px auto;
+} 
+.header2 .table span
+{
+	margin: 25%;	
+}
+.bgimg .fa-solid:hover
+{
+	/*background: black;*/
+	/*font-size: 15px;*/
+	color: coral;
+
+}

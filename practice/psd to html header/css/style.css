@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 85px;
+    background-color: #4a1831;
+}
+
+.header ul li a {
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 25px;
+    color: #ffd7ad;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.header ul {
+    line-height: 85px;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+

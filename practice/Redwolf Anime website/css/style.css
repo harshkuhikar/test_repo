@@ -1,0 +1,18 @@
+.headermain .innermain{
+    background-color: aqua;
+    height: 50px;
+}
+.logo{
+    background-color: red;
+}
+.logo:hover{
+    /* display: none; */
+    /* background: transparent; */
+    background-image: url(/images/rw-logo-gif-transparent-red.webp);
+    background-size: 100% 100%;
+}
+.logo img:hover{
+    display: none;
+}
+
+

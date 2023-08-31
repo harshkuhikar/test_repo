@@ -1,0 +1,59 @@
+@media(max-width: 500px){
+    .header{
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 50px;
+    }
+    .Your{
+        background-color:#D56452;
+    }
+    .logo{
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 100px;
+    }
+    .logoinput input{
+        width: 80%;
+    }
+    .bannering{
+        display: none;
+    }
+    .bannering1{
+        height: 40px;
+        width: 90%;
+        margin: auto;
+    }
+    .promo{
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 160px 160px 160px;
+        padding-left: 90px;
+    }
+    .items1{
+        width: 100%;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 380px 380px 380px
+        380px 380px 380px;
+    }
+    .itemsimg{
+        width: 300px;
+        margin-left: 95px;
+    }
+    .border{
+        width: 70%;
+    }
+    .footerconten{
+        grid-template-columns:1fr ;
+        grid-template-rows: auto;
+        gap: 30px;
+        text-align: center;
+    }
+    .payment{
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px;
+        text-align: center;
+    }
+    .Shop{
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px;
+    }
+
+}  
