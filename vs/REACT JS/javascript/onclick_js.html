@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onclick</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .plus {
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 250px auto;
+            background-color: rgb(255, 145, 0);
+            padding: 10px 15px;
+            transition: 0.3s all ease-in-out;
+            position: relative;
+        }
+
+        .plus:hover {
+            background-color: aquamarine;
+            cursor: pointer;
+        }
+
+        /* .plus:hover .inner {
+            display: block;
+        } */
+        #subMenu {
+            transition: all 1s ease-in-out;
+        }
+
+        .dropdown {
+            position: absolute;
+            margin-top: -300px;
+            display: none;
+            padding: 15px 35px;
+            overflow: hidden;
+            line-height: 30px;
+            top: 125%;
+            left: 0;
+            background-color: antiquewhite;
+        }
+
+        .dropdown.openMenu {
+            margin-top: 0;
+            overflow: hidden;
+            display: block;
+        }
+
+        .dropdown ul {
+            list-style: none;
+            text-decoration: none;
+        }
+
+        .dropdown a {
+            list-style: none;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="plus" onclick="toggleMenu()">+
+        <div class="dropdown" id="subMenu">
+            <ul>
+                <li><a href="#">Harsh</a></li>
+                <li><a href="#">Kuhikar</a></li>
+                <li><a href="#">Patel</a></li>
+                <li><a href="#">Ramoliya</a></li>
+                <li><a href="#">Varmora</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script>
+        let subMenu = document.getElementById("subMenu")
+
+        function toggleMenu() {
+            subMenu.classList.toggle("openMenu")
+        }
+    </script>
+</body>
+
+</html>

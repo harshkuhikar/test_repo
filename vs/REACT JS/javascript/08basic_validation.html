@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <form method="post" onsubmit="return ValidData()">
         <table border="1" align="center">
@@ -29,16 +31,15 @@
                 <td colspan="2" align="center"><input type="submit" name="submit"></td>
             </tr>
         </table>
-    </form>
+    </form>d
 </body>
+
 </html>
 <script>
-    function ValidData()
-    {
+    function ValidData() {
         var name = document.getElementById('name');
 
-        if(name.value == "")
-        {
+        if (name.value == "") {
             alert("please enter name");
             document.getElementById('name').focus();
             return false;
@@ -46,24 +47,21 @@
 
         var email = document.getElementById('email');
 
-        if(email.value == "")
-        {
+        if (email.value == "") {
             alert("please enter email");
             document.getElementById('email').focus();
             return false;
         }
         var pwd = document.getElementById('pwd');
 
-        if(pwd.value == "")
-        {
+        if (pwd.value == "") {
             alert("please enter password");
             document.getElementById('pwd').focus();
             return false;
         }
         var mobile = document.getElementById('mobile');
 
-        if(mobile.value == "")
-        {
+        if (mobile.value == "") {
             alert("please enter mobile");
             document.getElementById('mobile').focus();
             return false;
