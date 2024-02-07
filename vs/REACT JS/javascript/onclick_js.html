@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Onclick</title>
 
-    <style>
+    <!-- <style>
         * {
             margin: 0;
             padding: 0;
@@ -65,13 +65,62 @@
             text-decoration: none;
             color: black;
         }
-    </style>
+    </style> -->
+    <style>
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 275px;
+        }
 
+        .button {
+            height: 100px;
+            width: 100px;
+            cursor: pointer;
+        }
+
+        #white {
+            background-color: white;
+            border: 2px solid black;
+            transition: all 0.3s ease-in-out;
+            border-radius: 20px;
+        }
+
+        #grey {
+            background-color: grey;
+            border: 2px solid black;
+            transition: all 0.3s ease-in-out;
+            border-radius: 20px;
+        }
+
+        #black {
+            background-color: black;
+            border: 2px solid purple;
+            transition: all 0.3s ease-in-out;
+            border-radius: 20px;
+        }
+
+        #purple {
+            background-color: purple;
+            border: 2px solid black;
+            transition: all 0.3s ease-in-out;
+            border-radius: 20px;
+        }
+
+        #white:hover,
+        #grey:hover,
+        #black:hover,
+        #purple:hover {
+            scale: 1.1;
+        }
+    </style>
 </head>
 
 <body>
 
-    <div class="plus" onclick="toggleMenu()">+
+    <!-- <div class="plus" onclick="toggleMenu()">+
         <div class="dropdown" id="subMenu">
             <ul>
                 <li><a href="#">Harsh</a></li>
@@ -90,7 +139,35 @@
         function toggleMenu() {
             subMenu.classList.toggle("openMenu")
         }
-    </script>
+    </script> -->
+
+    <div class="main">
+        <span class="button" id="white" onclick="changewhite()"></span>
+        <span class="button" id="grey" onclick="changegrey()"></span>
+        <span class="button" id="black" onclick="changeblack()"></span>
+        <span class="button" id="purple" onclick="changepurple()"></span>
+    </div>
 </body>
+
+<script>
+    let changeclr = document.getElementById("white")
+
+    function changewhite() {
+        document.body.style.backgroundColor = "white";
+        document.body.style.transition = "all 0.5s ease-in-out";
+    }
+    function changegrey() {
+        document.body.style.backgroundColor = "grey";
+        document.body.style.transition = "all 0.5s ease-in-out";
+    }
+    function changeblack() {
+        document.body.style.backgroundColor = "black";
+        document.body.style.transition = "all 0.5s ease-in-out";
+    }
+    function changepurple() {
+        document.body.style.backgroundColor = "purple";
+        document.body.style.transition = "all 0.5s ease-in-out";
+    }
+</script>
 
 </html>
